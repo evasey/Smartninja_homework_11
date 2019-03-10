@@ -27,7 +27,7 @@ wrong_guesses = []  #empty list for wrong guesses
 
 while True:  #endless loop
     guess = int(input("Guess the secret number (between 1 and 30): "))
-    attempts += 1   # immer ein Versuch mehr
+    attempts += 1   
 
     if guess == secret:   #right
         score_list.append({"attempts": attempts,
